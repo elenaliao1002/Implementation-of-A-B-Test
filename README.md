@@ -142,7 +142,7 @@ The browsing time for above conditions have roughly normal distribution and equa
 
 The rejection results above indicate that the top 5 conditions are similar but significantly better than condition 6 in terms of minimizing the browsing time.
 
-## 2.5 Conclusions
+### *2.5 Conclusions*
 
 From the screening experiment, we discovered that the influential design factors are Match Score, Preview Length, and Preview Type. The only significant interaction is between Match Score and Preview Length.
 
