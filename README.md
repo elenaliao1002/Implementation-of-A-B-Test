@@ -143,10 +143,10 @@ The browsing time for above conditions have roughly normal distribution and equa
 
 | Test | H0       | HA     | p-value | Adjusted p-value (Holm) | Rejection |
 | ---- | -------- | ------ | ------- | ----------------------- | --------- |
-| 1    | μ1=μ2  | μ1μ2 | 0.639   | 0.639                   | False     |
-| 2    | μ1=μ3  | μ1μ3 | 0.183   | 0.366                   | False     |
-| 3    | μ1=μ4  | μ1μ4 | 0.091   | 0.274                   | False     |
-| 4    | μ1=μ5  | μ1μ5 | 0.0156  | 0.062                   | False     |
+| 1    | μ1=μ2  | μ1!=μ2 | 0.639   | 0.639                   | False     |
+| 2    | μ1=μ3  | μ1!=μ3 | 0.183   | 0.366                   | False     |
+| 3    | μ1=μ4  | μ1!=μ4 | 0.091   | 0.274                   | False     |
+| 4    | μ1=μ5  | μ1!=μ5 | 0.0156  | 0.062                   | False     |
 | 5    | μ1<=μ6 | μ1>6  | 3.4e-10 | 1.7e-9                  | True      |
 
 The rejection results above indicate that the top 5 conditions are similar but significantly better than condition 6 in terms of minimizing the browsing time.
