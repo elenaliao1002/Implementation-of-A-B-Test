@@ -24,7 +24,8 @@ Step 1: Initial screening experiment to narrow down the influential design facto
 
 Step 2: Further experiments to analyze the effect of  the influential design factors confirmed by Step 1 and search for the optimal condition for minimizing user browsing time on Netflix.
 
-![img](https://lh6.googleusercontent.com/tcuOYMgGleqKtIB11R7sj1m2kJEpfQ7dmQdJn9_lrBFs1DMIfcaH29MvmvPtRhNTbNNdwOKmhYFCd39-3DW6NSixU9S5uLNitHUbZQRkNtUhuCBGSwwy8CVaSqskwr-Sw9z9xWvakp45DdbfNx9EcQc)
+<img src="https://lh6.googleusercontent.com/tcuOYMgGleqKtIB11R7sj1m2kJEpfQ7dmQdJn9_lrBFs1DMIfcaH29MvmvPtRhNTbNNdwOKmhYFCd39-3DW6NSixU9S5uLNitHUbZQRkNtUhuCBGSwwy8CVaSqskwr-Sw9z9xWvakp45DdbfNx9EcQc" width="800" >
+
 
 ### *2.1 Question*
 
@@ -81,21 +82,28 @@ First, a ‘Gatekeeper’ F-test is performed to examine the overall significanc
 | 2          | μ1=μ2= ... =μ9  | μjμkfor some jk    | 7.93e-317         |
 | 3          | μ1=μ2= ... =μ9  | μjμkfor some jk    | 9.79e-117         |
 
-In all three experiments, we reject the null hypothesis with the significance of 5%. This means that there is enough evidence to suggest that there is a difference among all conditions in each of our experiments in terms of average browsing time.![img](https://lh3.googleusercontent.com/cQ23OTb5ej-0wmIoXUMjbp5CWu7jTu85IysZ-YklXbDBIva7vpC4sKqFUSLy3f5nYZr6l0IFK_tHqsfeNaWRDc24ea-F6lBsjNsg7FQ9AMsB9mTIsNI-qmS4fB8c23FYSimgftgIcGb7AR7PJm_sInM)
+In all three experiments, we reject the null hypothesis with the significance of 5%. This means that there is enough evidence to suggest that there is a difference among all conditions in each of our experiments in terms of average browsing time.
+<img src="https://lh3.googleusercontent.com/cQ23OTb5ej-0wmIoXUMjbp5CWu7jTu85IysZ-YklXbDBIva7vpC4sKqFUSLy3f5nYZr6l0IFK_tHqsfeNaWRDc24ea-F6lBsjNsg7FQ9AMsB9mTIsNI-qmS4fB8c23FYSimgftgIcGb7AR7PJm_sInM" width="600" > 
+
 
 #### Main MOI Effect and interaction plots
 
-##### Experiment 1 ![](https://lh3.googleusercontent.com/DH4TglxfET8mQ_6RH0QRWReF5lat1RJ7Q7Yl8ltiJB2tIFnJYlY1QgwiMhLgjCNZmM2QqRIuUctS1ioLpofLUbos7hqG0pS-jh0BPFqxawr6Tia7jZAGsuperDSWAsMvA4fLQdRxUTZxTLws15l_Zlk)
+##### Experiment 1 
+<img src="https://lh3.googleusercontent.com/DH4TglxfET8mQ_6RH0QRWReF5lat1RJ7Q7Yl8ltiJB2tIFnJYlY1QgwiMhLgjCNZmM2QqRIuUctS1ioLpofLUbos7hqG0pS-jh0BPFqxawr6Tia7jZAGsuperDSWAsMvA4fLQdRxUTZxTLws15l_Zlk" width="600" > 
 
 Based on the main effect and interaction plots above, the preview length, match score, and preview type all have significant main effects on the browsing time. The interaction plots indicate that only the preview length and match score have significant interaction effects with each other. A longer preview length increases the browse time when the match score moves from 30 to 95, while a shorter preview length decreases the browse time.
 
 ##### **Experiment 2**
+<img src="https://lh6.googleusercontent.com/XpE6ZNlGyCPuDNJMAmDtuZ-BPxGMKy0I2Wdn2HiWdXQoMSSwRkC3Bw-HCdNdB4WPPYNYYFjcTQLX_CiBt6JHvQerm1VJ-MAsDD040ZUHx1iDmAkDYQadQki0PFlOuLcm2cOiXLN_aZc3EzmxlJaAJ6I" width="600" > 
+<img src="https://lh3.googleusercontent.com/BcIqWQOLmKwhfXATAVqKTfi_KRoWjUU6iaAALA2BGhcY374P3H90cf95RHxucH2MsSSNXSa_3iwoVnWIrPMeOKGycvz4-ss-mymfgXCQf2n7T8DOvEDZvjj8hSqb90kjNsKQKeMzcaD2XOkqBtI-q58" width="600" > 
 
-![](https://lh6.googleusercontent.com/XpE6ZNlGyCPuDNJMAmDtuZ-BPxGMKy0I2Wdn2HiWdXQoMSSwRkC3Bw-HCdNdB4WPPYNYYFjcTQLX_CiBt6JHvQerm1VJ-MAsDD040ZUHx1iDmAkDYQadQki0PFlOuLcm2cOiXLN_aZc3EzmxlJaAJ6I)![](https://lh3.googleusercontent.com/BcIqWQOLmKwhfXATAVqKTfi_KRoWjUU6iaAALA2BGhcY374P3H90cf95RHxucH2MsSSNXSa_3iwoVnWIrPMeOKGycvz4-ss-mymfgXCQf2n7T8DOvEDZvjj8hSqb90kjNsKQKeMzcaD2XOkqBtI-q58)In the second experiment, we saw that the main effects of both factors appeared to be significant. The interaction plot further confirms that preview length and match score have significant interaction effects. Interestingly, we found out that a match score of 70 generally has the lowest average browsing time rather than a higher or lower match score.
+In the second experiment, we saw that the main effects of both factors appeared to be significant. The interaction plot further confirms that preview length and match score have significant interaction effects. Interestingly, we found out that a match score of 70 generally has the lowest average browsing time rather than a higher or lower match score.
 
-##### Experiment 3 ![](https://lh5.googleusercontent.com/oVh1WMj71f1NX8J0W-69GXPKYAf7le0DU339VI2pHfZlMfWLxzfT_TFm7UBisQqZRa1gnzhh9rjASfkxMSHHF_ExffoTgEeEQV7pHdSsFeCrkMUdIWK_e2pTKqPxbDbTWByIptcJlzzaw19mRlJjP-s)
+##### Experiment 3 
+<img src="https://lh5.googleusercontent.com/oVh1WMj71f1NX8J0W-69GXPKYAf7le0DU339VI2pHfZlMfWLxzfT_TFm7UBisQqZRa1gnzhh9rjASfkxMSHHF_ExffoTgEeEQV7pHdSsFeCrkMUdIWK_e2pTKqPxbDbTWByIptcJlzzaw19mRlJjP-s" width="600" > 
 
-Based on the observation of the interaction plot, a match score of 75 generally has the lowest average browsing time. ![](https://lh3.googleusercontent.com/XAdKOagP3Ap7KvGR1JXEqtfs91VGkRwhEIqnTX4-sq6Jjed19qrNgKcQYOKpXJCJ-VqDViz5Q_cxQUBfJmofgBwdWSNrZ80lc7yoWncD5aqMndNZlQdehOtimWp_Lys8D89pjg-B-3di8lSK80vhrKg)
+Based on the observation of the interaction plot, a match score of 75 generally has the lowest average browsing time. <img src="https://lh3.googleusercontent.com/XAdKOagP3Ap7KvGR1JXEqtfs91VGkRwhEIqnTX4-sq6Jjed19qrNgKcQYOKpXJCJ-VqDViz5Q_cxQUBfJmofgBwdWSNrZ80lc7yoWncD5aqMndNZlQdehOtimWp_Lys8D89pjg-B-3di8lSK80vhrKg" width="600" > 
+
 
 #### Hypothesis Testing
 
