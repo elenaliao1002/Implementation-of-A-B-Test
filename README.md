@@ -78,11 +78,12 @@ First, a ‘Gatekeeper’ F-test is performed to examine the overall significanc
 
 | Experiment | Null Hypothesis    | Alternate Hypothesis | Resulting p-value |
 | ---------- | ------------------ | -------------------- | ----------------- |
-| 1          | μ1=μ2= ... =μ16 | μjμkfor some jk    | 0.00              |
-| 2          | μ1=μ2= ... =μ9  | μjμkfor some jk    | 7.93e-317         |
-| 3          | μ1=μ2= ... =μ9  | μjμkfor some jk    | 9.79e-117         |
+| 1          | μ1=μ2= ... =μ16 | μj!=μkfor some j!=k    | 0.00              |
+| 2          | μ1=μ2= ... =μ9  | μj!=μkfor some j!=k    | 7.93e-317         |
+| 3          | μ1=μ2= ... =μ9  | μj!=μkfor some j!=k    | 9.79e-117         |
 
 In all three experiments, we reject the null hypothesis with the significance of 5%. This means that there is enough evidence to suggest that there is a difference among all conditions in each of our experiments in terms of average browsing time.
+
 <img src="https://lh3.googleusercontent.com/cQ23OTb5ej-0wmIoXUMjbp5CWu7jTu85IysZ-YklXbDBIva7vpC4sKqFUSLy3f5nYZr6l0IFK_tHqsfeNaWRDc24ea-F6lBsjNsg7FQ9AMsB9mTIsNI-qmS4fB8c23FYSimgftgIcGb7AR7PJm_sInM" width="600" > 
 
 
